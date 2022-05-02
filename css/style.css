@@ -11,6 +11,14 @@
     color: #ffffff;
 }
 
+nav {
+    transition: all 2ms;
+    -webkit-transition: all 2ms;
+    -moz-transition: all 2ms;
+    -ms-transition: all 2ms;
+    -o-transition: all 2ms;
+}
+
 header h1 {
     position: absolute;
     top: 30%;
@@ -161,4 +169,13 @@ h6 {
     .nav-item a {
         font-size: 1rem;
     }
+}
+
+body {
+    height: 5000px;
+}
+
+.nav-bg {
+    background-color: rgba(49, 51, 61);
+    z-index: 60;
 }
