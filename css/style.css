@@ -129,9 +129,10 @@ nav .nav-item:hover {
     margin-bottom: 1rem;
 }
 
-.intro p {
+p {
     /* color: #4d5055; */
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    color: #4d5055;
 }
 
 .intro .time {
@@ -220,4 +221,74 @@ body {
     line-height: 2rem;
     font-family: "Poppins";
     margin-bottom: 2rem;
+}
+
+.skills img {
+    width: 100%;
+    height: 100%;
+}
+
+.skills h2 {
+    color: #24262a;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    /* font-family: "Poppins"; */
+    margin-top: 10%;
+    text-align: start;
+    margin-left: 9%;
+}
+
+.skills p {
+    color: #4d5055;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    text-align: start;
+    margin-left: 10%;
+}
+
+.skills h5 {
+    color: #24262a;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    text-align: start;
+    margin-left: 10%;
+}
+
+.icons img {
+    width: 3.5rem;
+    margin-right: 0.625rem;
+    margin-bottom: 0.75rem;
+}
+
+.projects p {
+    margin: auto;
+    margin: 2rem;
+    line-height: 2;
+}
+
+.work p {
+    line-height: 1;
+    font-size: 1rem;
+    margin: 01rem;
+    line-height: 1;
+    padding-top: 0.5rem;
+}
+
+.projects div {
+    transition: 5s all ease-in-out;
+    -webkit-transition: 5s all ease-in-out;
+    -moz-transition: 5s all ease-in-out;
+    -ms-transition: 5s all ease-in-out;
+    -o-transition: 5s all ease-in-out;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.projects img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
