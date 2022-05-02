@@ -16,7 +16,7 @@ header h1 {
     top: 30%;
     left: 5%;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
-    font-size: 3.75rem;
+    font-size: 3rem;
     line-height: 4.625rem;
     margin-bottom: 1.75rem;
     color: #ffffff;
@@ -83,6 +83,7 @@ nav a,
     color: #ffffff;
     text-decoration: none;
     transition: all 0.2s ease;
+    font-size: 0.8rem;
 }
 
 .navbar:hover {
@@ -109,4 +110,11 @@ nav a,
 
 nav .nav-item:hover {
     color: #212226;
+}
+
+@media (min-width:700px) {
+    nav a,
+    .nav-item a {
+        font-size: 1rem;
+    }
 }
