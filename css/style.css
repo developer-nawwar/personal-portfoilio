@@ -292,3 +292,25 @@ body {
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
+
+.testimonials h2 {
+    width: 60%;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+.testimonials p {
+    margin: 2rem;
+}
+
+.testimonials img {
+    width: 5rem;
+}
+
+.testimonials .d-flex div:nth-child(1) {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
