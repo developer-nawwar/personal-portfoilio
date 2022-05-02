@@ -196,12 +196,11 @@ body {
 }
 
 .services p {
-    color: #4d5055;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
-    width: 40%;
+    width: 80%;
     text-align: center;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .services .d-flex p {
