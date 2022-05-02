@@ -179,3 +179,46 @@ body {
     background-color: rgba(49, 51, 61);
     z-index: 60;
 }
+
+.services .d-flex div {
+    border: 1px solid #cfd7de;
+    margin-bottom: 3rem;
+    padding: 3.5rem 1rem 2.125rem 1rem;
+}
+
+.services h2 {
+    color: #583343;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-family: "Poppins";
+    margin-bottom: 2rem;
+}
+
+.services p {
+    color: #4d5055;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.services .d-flex p {
+    width: 100%;
+    margin-top: rem;
+}
+
+.services i {
+    color: hsl(152, 88%, 35%);
+    margin-bottom: 2rem;
+}
+
+.services h4 {
+    color: #583343;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Poppins";
+    margin-bottom: 2rem;
+}
