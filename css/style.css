@@ -190,7 +190,6 @@
         font-weight: 700;
         font-size: 3rem;
         line-height: 2.5rem;
-        font-family: "Poppins";
         margin-bottom: 2rem;
     }
     
@@ -313,8 +312,13 @@
         margin-top: 1rem;
     }
     
-    .FAQ h2 {
+    h2 {
         color: #583343;
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 2.5rem;
+        margin-bottom: 1rem;
     }
     
     .FAQ i {
@@ -350,4 +354,23 @@
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
+    }
+    
+    .contact form input {
+        height: 3rem;
+        text-align: center;
+        color: #583343;
+    }
+    
+    .contact form button {
+        height: 3.25rem;
+        border: 1px solid hsl(152, 88%, 35%);
+        border-radius: 32px;
+        background-color: hsl(152, 88%, 35%);
+        color: #583343;
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 0;
+        cursor: pointer;
+        transition: all 0.2s;
     }
