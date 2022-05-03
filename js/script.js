@@ -17,6 +17,23 @@ $(document).ready(function() {
 
 
     });
+    //toggle Answers
+
+    $("#question1").click(function() {
+        $("#answer1").fadeToggle(2000);
+        $("#question1 i").toggleClass("flip");
+    });
+    $("#question2").click(function() {
+        $("#answer2").fadeToggle(2000);
+        $("#question2 i").toggleClass("flip");
+    });
+    $("#question3").click(function() {
+        $("#answer3").fadeToggle(2000);
+        $("#question3 i").toggleClass("flip");
+    });
+
+
+
 
 
 
